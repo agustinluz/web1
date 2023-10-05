@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FORMULARIO
+        </title>
+    </head>
+    <body>
+        <h1>
+            FORMULARIO
+        </h1>
+        <form method="post">
+            <fieldset>
+                <legend>Ingresa tus Datos personales</legend>
+                Nombre <input type="text" name="name" size="15" placeholder="Nombre"/>
+                Apellido/s <input type="text" name="apellidos"  size="20"placeholder="apellido/s" />
+                Edad <input type="number" name="Edad" maxlength="2" size="5" placeholder="edad actual" />
+                DNI <input type="text" name="DNI" maxlength="9"  size="10"placeholder="DNI"/>
+                <br></br>
+                <b> Selccione su género: </b><br>
+                <input type="radio" name="genero" > Masculino <br>
+                <input type="radio" name="genero" > Femenino <br>
+            </fieldset>
+            <fieldset>    
+                <legend>Registro</legend>
+                email <input type="email" name="email" placeholder="Coloca tu email" />
+                contraseña <input type="password" name="pass" placeholder="Coloca tu contraseña" />
+            </fieldset>
+            <fieldset>
+                <legend>Método de contacto</legend>
+                Número de teléfono<input type="number" name="telefono" value="telefono" maxlength="9" size="9" placeholder="69687543" />
+            
+            </fieldset>
+
+            <input type="submit" value="enviar"> </input>
+        </form>
+    </body>
+</html>
